@@ -8,6 +8,10 @@
 
 Hægt er að sækja Git fyrir öll helstu stýrikerfin á [http://git-scm.com](http://git-scm.com).
 
+### Mac OS X
+
+Þægilegasta leiðin til að setja upp Git á Mac (og halda utan um uppfærslur) er í gegnum [Homebrew](http://brew.sh), en það er tól sem gerir manni kleift að halda utan um pakka/tól fyrir Mac. Eftir að brew hefur verið sett upp þarf einfaldlega að keyra `brew install git`. Til að sækja uppfærslur keyrir maður `brew upgrade git`
+
 ## Hvað er Git?
 
 Git er kerfi fyrir dreifða útgáfustjórn *(e. distributed revision control system)*. Ólíkt öðrum kerfum getur Git séð um útgáfustjórn án viðkomu servers. Önnur kerfi eins og SVN, TFS (TFVC), o.s.frv. eru miðstýrð *(e. centralized)* sem þýðir að útgáfustýringin er á miðlægum server.
