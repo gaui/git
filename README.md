@@ -293,6 +293,10 @@ Hér fyrir neðan má sjá mynd sem útskýrir þetta betur:
 
 ![git diff](http://i.imgur.com/1PfbKPU.png)
 
+#### git diff `--staged`
+
+Sýnir allar breytingar sem eru í Staging Area (Index).
+
 ### git branch
 
 Sýnir lista yfir öll local brönch.
