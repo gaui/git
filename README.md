@@ -42,6 +42,21 @@ Til að búa til nýtt repository ferðu í möppu sem þú vilt útgáfustýra 
 
 Þá er mappan orðin að Git repository. Flóknara er það ekki.
 
+### .gitignore
+
+Þegar kóði er útgáfustýrður og repository er deilt með öðrum forriturum, vill maður oft sleppa ákveðnum skrám. Dæmi um slíkar skrár eru t.d. binary og auto-generated skrár:
+
+- IDE config fyrir notandann
+- Loggar
+- Compiled binary (bin, obj, o.s.frv.)
+- o.s.frv.
+
+Þá kemur `.gitignore` skráin að góðum notum. Git hunsar allar skrár í þessari skrá, nema þeim hafi verið bætt við áður en `.gitignore` skráin var búin til (þar sem Git er byrjað að tracka skránna). En þá er hægt að keyra `git rm --cached <file>` til að eyða skránni úr Git, en sleppa því að eyða skránni úr Working Directory.
+
+Best er að búa til `.gitignore` skránna í rótinni á repository'inu (þar sem `.git` mappan er staðsett).
+
+GitHub heldur úti sér repository fyrir `.gitignore` template sem má finna [hér](https://github.com/github/gitignore).
+
 ## Git högun
 
 ### Local vs. Remote
