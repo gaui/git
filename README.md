@@ -202,6 +202,23 @@ Leyfir þér að velja hvaða breytingar þú vilt setja í Staging Area. Segjum
 
 Þetta endurstillir ekki Staging Area (Index) og breytir ekki Working Directory.
 
+Þetta er t.d. gagnlegt þegar þú vilt setja mörg local commit í eitt, þar sem þetta hreyfir hvorki við Staging Area (Index) né Working Directory.
+
+**Dæmi:**
+
+    * da883dc (HEAD, master) Three
+    * 92d3eb7 Two
+    * c6e82d3 One
+    * e1e8042 Start here
+    
+    git reset --soft e1e8042
+    git log --oneline
+    
+    * e1e8042 Start here
+    git commit
+
+Þarna er öllum breytingunum komið fyrir í `e1e8042` *(Start here)* committinu, og þú getur pushað því sem einu committi og sleppt þessum þremur auka.
+
 #### git reset `--hard <commit>`
 
 Þetta breytir Working Directory alveg eins og í committinu sem þú tilgreinir.
