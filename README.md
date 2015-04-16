@@ -194,9 +194,9 @@ Leyfir þér að velja hvaða breytingar þú vilt setja í Staging Area. Segjum
 
 #### git reset `--mixed`
 
-Þetta er defaultið. Þetta endurstillir Staging Area (Index) og breytir ekki Working Directory.
+Þessi skipun er defaultið þegar þú skrifar bara `git reset`. Þetta endurstillir Staging Area (Index) og breytir ekki Working Directory.
 
-Þetta er notað þegar þú vilt taka allar skrár úr Staging Area (Index).
+Þetta er t.d. gagnlegt þegar þú vilt taka skrár úr Staging Area (Index).
 
 #### git reset `--soft`
 
