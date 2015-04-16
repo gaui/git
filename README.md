@@ -200,7 +200,7 @@ Leyfir þér að velja hvaða breytingar þú vilt setja í Staging Area. Segjum
 
 #### git reset `--soft`
 
-Þetta endurstillir ekki Staging Area (Index) og breytir ekki Working Directory.
+Þessi skipun endurstillir ekki Staging Area (Index) og breytir ekki Working Directory.
 
 Þetta er t.d. gagnlegt þegar þú vilt setja mörg local commit í eitt, þar sem þetta hreyfir hvorki við Staging Area (Index) né Working Directory.
 
